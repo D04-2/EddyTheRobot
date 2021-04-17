@@ -1,6 +1,6 @@
 # EddyTheRobot
 
-Create a program that takes in a stirng and assiciates each char with an instruction for the robot. The program should print out the position of the robot after processing all instructions to the terminal.
+Create a program that takes in a string and associates each char with an instruction for the robot. The program should print out the position of the robot after processing all instructions to the terminal.
 
 Objective
 =====
@@ -9,7 +9,7 @@ Eddy is a robot and lives in a 2 dimensional world. All he can do is rotate and 
 He needs instructions to perform those actions.
 There are 3 possible instructions, that Eddy understands 
 
-* R: roate right i.e. north -> east
+* R: rotate right i.e. north -> east
 * L: rotate left i.e. north -> west
 * G: move a single grid unit in the direction of the heading 
 i.e. heading: north and position: {"posX": 0, "posY": 0} -> new position: {"posX: 0, posY: 1}
@@ -40,7 +40,7 @@ program output: Eddy does not understand that
 
 node index.js LGGRGGLGGLG ABC
 program output: { posX: -4, posY: 1 }
-Eddy will simple ignore the follwing input arguments after receiving his instructions
+Eddy will simple ignore the following input arguments after receiving his instructions
 
 Grid
 =====
