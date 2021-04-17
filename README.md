@@ -41,3 +41,8 @@ program output: Eddy does not understand that
 node index.js LGGRGGLGGLG ABC
 program output: { posX: -4, posY: 1 }
 Eddy will simple ignore the follwing input arguments after receiving his instructions
+
+Grid
+=====
+
+!![Screenshot](2-dimens-coord-system.png)
