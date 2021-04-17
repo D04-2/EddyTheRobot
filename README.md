@@ -22,25 +22,45 @@ More rules
 * and starts with the heading: north
 * he reports back his position as a json object with posX and posY after performing all actions
 
-Example
+Example 1
 =====
 
 node index.js GGGLGRG
+
 -> means Robot performs the following actions: moves forward 3 times, then rotates left, then moves forward, then rotates right, then moves forward
+
 program output: { posX: -1, posY: 4 }
 
+Example 2
+=====
+
 node index.js LGGRGGLGGLG
+
 program output: { posX: -4, posY: 1 }
+
+Example 3
+=====
+
 
 node index.js
+
 progam output: { posX: 0, posY: 0 }
 
+Example 4
+=====
+
 node index.js ABC
+
 program output: Eddy does not understand that
 
+Example 5
+=====
+
 node index.js LGGRGGLGGLG ABC
+
 program output: { posX: -4, posY: 1 }
-Eddy will simple ignore the following input arguments after receiving his instructions
+
+Eddy will simply ignore the following input arguments after receiving his instructions
 
 Grid
 =====
