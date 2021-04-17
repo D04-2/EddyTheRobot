@@ -53,6 +53,8 @@ node index.js ABC
 
 program output: Eddy does not understand that
 
+code: console.log("Eddy does not understand that");
+
 Example 5
 =====
 
