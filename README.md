@@ -65,4 +65,4 @@ Eddy will simply ignore the following input arguments after receiving his instru
 Grid
 =====
 
-!![Screenshot](2-dimens-coord-system.png)
+![Screenshot](2-dimens-coord-system.png)
