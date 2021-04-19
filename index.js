@@ -14,6 +14,7 @@ class Robot {
                 default: null; break;
             }
         } catch (error) {
+            console.log("Jiji")
             console.log(error);
         }
     }
