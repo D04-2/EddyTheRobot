@@ -1,13 +1,7 @@
-// load instructions from the command input argument
-const instructions = process.argv[2] || "";
-// regex to allow only the letters 'G', 'L, and 'R'
-const regex = /^[GLR]*$/;
+const anweisung = "GRRGGLGGG"
 
-if(instructions.match(regex)){
-    console.log(instructions);
-} else {
-    console.log("instructions are not valid")
-}
-
-// Eddy performs actions
-// place your code here
+/*
+    G = Ein Schritt nach vorne
+    R = Eine Rotation nach Rechts (im Uhrzeigersinn)
+    L = Eine Rotation nach Links (gegen den Uhrzeigersinn)
+*/
